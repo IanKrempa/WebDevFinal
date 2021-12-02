@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+
+<head>
+    <meta name="generator" content="Visual Studio 16.7.3" />
+    <title>Comment on a Book</title>
+
+</head>
+
+
+<body>
+
+
+<body style="background-color:#c2d2ff"> <!--style allows the manipulation or text, images, or backgrounds-->
+
+    <h1 style="font-family:'Times New Roman'; color:#000000" align="center">
+        
+        Comment on a Book
+
+    </h1> 
+
+     <center><!--center element allows photos to be centered-->
+
+
+    
+            
+    </center>
+
+<form style="text-align: center" action="mainPage_view.html" method="post">
+ 
+
+  <div class="container">
+  <span class="sports"><a href="logout.php">Logout</a></span> &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;
+  <span class="sports"><a href="mainPage_view.html">Main Page</a></span>
+
+  <br><br><br>
+  <p style="font-size: large;"><b>Select a book to comment on</b></p>
+  <br>
+  <form action="/action_page.php"> <!--action = the page that the data will be sent too-->
+    <label for="books">Choose a book:</label>
+    <select name="books" id="books">
+      <option value="b1">Book 1</option>
+      <option value="b2">Book 2</option>
+      <option value="b3">Book 3</option>
+      <option value="b4">Book 4</option>
+    </select>
+    <br><br>
+    <p>Write a comment:</p>
+    <textarea id="w3review" name="w3review" rows="4" cols="50">
+        </textarea>
+
+    <br><br>
+
+    <input type="submit" value="Submit">
+  </form>
+
+
+  </div>
+
+</form>
+
+
+</body>
+
+
+</html>
